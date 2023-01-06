@@ -1,3 +1,4 @@
+### New VM
 resource "google_compute_instance" "default" {
   name         = "test1"
   machine_type = "e2-medium"
