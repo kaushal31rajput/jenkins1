@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('GIT Intialize') {
             steps {
-                git branch: 'main', url: 'https://github.com/kaushal31rajput/jenkins1'
+                git branch: 'jenkins1', url: 'https://github.com/kaushal31rajput/jenkins1'
                 echo 'This Git Initilization completed'
             }
         }
