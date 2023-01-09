@@ -12,6 +12,8 @@ pipeline {
             steps {
                 sh 'terraform init'
                 echo 'Terraform intialize'
+                ls -lart
+                pwd
             }
         }
         stage('Terraform plan') {
