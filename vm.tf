@@ -3,7 +3,7 @@ resource "google_compute_instance" "default" {
   name         = "test1"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
-  project = "decisive-post-366007"
+  project = "opportune-epoch-368707"
 
   tags = ["foo", "bar"]
 
