@@ -12,7 +12,7 @@ pipeline {
             steps {
                 sh 'terraform init'
                 echo 'Terraform intialize'
-                pwd()
+                sh 'pwd'
                 sh 'ls -lart'
             }
         }
