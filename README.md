@@ -1,2 +1,1 @@
-# jenkins1
-# ertuun
+# jenkins1 pipeline 
