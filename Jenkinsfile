@@ -12,8 +12,7 @@ pipeline {
             steps {
                 sh 'terraform init'
                 echo 'Terraform intialize'
-                shc'ls -lart'
-                sh 'pwd'
+                pwd()
             }
         }
         stage('Terraform plan') {
